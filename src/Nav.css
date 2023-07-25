@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.nav {
+  width: 100vw;
+  height: 80px;
+  background-color: #09080c;
+  padding-top: px;
+  display: flex;
+}
+.NavLogo h1 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.5714px;
+  line-height: 32px;
+  margin-left: 64px;
+  background: linear-gradient(
+    73.6deg,
+    #85ffc4 2.11%,
+    #5cc6ff 42.39%,
+    #bc85ff 85.72%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.navLink {
+  margin-left: 64px;
+  justify-content: space-between;
+  display: flex;
+  width: 404px;
+  height: 40px;
+}
+.navLink .NavlinkA {
+  margin-top: 28px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #a6a0bb;
+  text-decoration: none;
+}
+.NavlinkA::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    margin: auto;
+    display: block;
+}
+.NavlinkA:hover::after{
+    width: 100%;
+    transition: width 0.3s linear;
+}
+.NavlinkA:hover{
+    font-weight: 700;
+  color: #ffffff;
+}
+.NavBtn {
+  display: flex;
+  gap: 16px;
+
+  /* width: 396px; */
+  height: 40px;
+  right: 0px;
+  margin-top: 20px;
+  margin-left: 400px;
+}
+.NavBtn button {
+  padding: 8px 16px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  position: relative;
+
+  /* width: 75px;
+height: 40px; */
+
+  /* Gray/22 */
+
+  background: #1c1924;
+  border-radius: 100px;
+}
+.ConnectWallet:hover{
+  background-color: green;
+  
+}
